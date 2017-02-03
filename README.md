@@ -1,0 +1,3 @@
+# UIWebViewDemo
+UIWebView注入时机
+使用webView:didCreateJavaScriptContext:forFrame:方法作为注入时机，比webViewDidFinishLoad方法更准确、时机更早、响应更快。
